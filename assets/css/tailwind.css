@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Fraktion Sans";
+    src: url("../fonts/fraktion-sans/PPFraktionSans-Variable.ttf");
+  }
+  @font-face {
+    font-family: "Fraktion Mono";
+    src: url("../fonts/fraktion-mono/PPFraktionMono-Light.woff");
+    src: url("../fonts/fraktion-mono/PPFraktionMono-Light.woff2");
+    src: url("../fonts/fraktion-mono/PPFraktionMono-Light.ttf");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Fraktion Mono";
+    src: url("../fonts/fraktion-mono/PPFraktionMono-LightItalic.woff");
+    src: url("../fonts/fraktion-mono/PPFraktionMono-LightItalic.woff2");
+    src: url("../fonts/fraktion-mono/PPFraktionMono-LightItalic.ttf");
+    font-style: italic;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
